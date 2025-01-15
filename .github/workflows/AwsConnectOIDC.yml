@@ -30,4 +30,4 @@ jobs:
         run: aws sts get-caller-identity
 
       - name: Create S3 bucket
-        run : aws s3 mb s3:// ${{ env.BUCKET_NAME }}
+        run : aws s3 mb s3://${{ env.BUCKET_NAME }}
