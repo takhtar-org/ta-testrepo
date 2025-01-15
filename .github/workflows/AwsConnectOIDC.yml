@@ -3,7 +3,7 @@ name: AWS example workflow
 on:
   push
 env:
-  BUCKET_NAME : "action-bucket"
+  BUCKET_NAME : "action-bucket-ta"
   AWS_REGION : "eu-north-1"
 # permission can be added at job level or workflow level
 permissions:
